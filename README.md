@@ -1,27 +1,31 @@
-# Resume — Alexandra Kashani Motlagh
+# Resume
 
 LaTeX source for my professional resume.
 
-## Build
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?logo=latex&logoColor=white)
 
-Compile with `pdflatex`:
+## Download
+
+**[resume.pdf](resume.pdf)** — compiled and ready to view.
+
+## Build from Source
 
 ```bash
 pdflatex resume.tex
 ```
 
-This produces `resume.pdf`.
+### Requirements
 
-## Requirements
-
-- TeX Live or MiKTeX with the following packages:
-  - `geometry`, `hyperref`, `enumitem`, `titlesec`, `xcolor`, `changepage`, `fontenc`
+TeX Live or MiKTeX with: `geometry`, `hyperref`, `enumitem`, `titlesec`, `xcolor`, `changepage`, `fontenc`.
 
 ## Structure
 
-- `resume.tex` — Main resume source
-- `resume.pdf` — Compiled output (committed for easy download)
+```
+resume.tex   — Source file (all sections are clearly commented)
+resume.pdf   — Compiled output
+```
 
-## Quick Edit
+## License
 
-All content is in a single `resume.tex` file. Sections are clearly commented. Update content between the section markers and recompile.
+MIT
+
